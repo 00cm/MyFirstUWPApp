@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Source>C:\Users\chloe\Downloads\chloe.png</Source>
+    <SmallTileSource>C:\Users\chloe\Downloads\chloe.png</SmallTileSource>
+    <MediumTileSource>C:\Users\chloe\Downloads\chloe.png</MediumTileSource>
+    <WideTileSource>C:\Users\chloe\Downloads\chloe.png</WideTileSource>
+    <LargeTileSource>C:\Users\chloe\Downloads\chloe.png</LargeTileSource>
+    <AppIconSource>C:\Users\chloe\Downloads\chloe.png</AppIconSource>
+    <SplashScreenSource>C:\Users\chloe\Downloads\chloe.png</SplashScreenSource>
+    <PackageLogoSource>C:\Users\chloe\Downloads\chloe.png</PackageLogoSource>
+  </PropertyGroup>
+</Project>
