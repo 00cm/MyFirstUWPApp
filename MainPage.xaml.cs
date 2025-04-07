@@ -106,6 +106,13 @@ namespace MyFirstUWPApp
                 classNameTxt.Text = student?.ClassName ?? "";
                 gradeTxt.Text = student?.Grade ?? "";
             }
+
+            if (student != null)
+            {
+                studentFirstName.Text = student?.FirstName ?? "";
+                studentLastName.Text = student?.LastName ?? "";
+                studentClass.Text = student.ClassName ?? "";
+            }
         }
 
         private void Grade_Selection(object sender, SelectionChangedEventArgs e)
@@ -128,11 +135,17 @@ namespace MyFirstUWPApp
         private void UpdateStudent()
         {
             var student = studentList?.SelectedItem as Student;
+
             if (student != null)
             {
                 student.FirstName = studentFirstName.Text;
                 student.LastName = studentLastName.Text;
                 student.ClassName = studentClass.Text;
+
+
+                var selectedStudent = studentList.SelectedItem;
+                studentList.SelectedItem = null;
+                studentList.SelectedItem = selectedStudent;
             }
         }
     }

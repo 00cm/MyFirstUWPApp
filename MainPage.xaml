@@ -71,7 +71,7 @@
                      x:Name="studentLastName"
                      Margin="10"
                      TextChanged="TextChanged"/>
-            <TextBox Header="Class" x:Name="studentClass" Margin="10"/>
+            <TextBox Header="Class" x:Name="studentClass" Margin="10" TextChanged="TextChanged"/>
             <ComboBox x:Name="Grade" 
               Header="Grade:" 
               PlaceholderText="A"
