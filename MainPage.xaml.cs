@@ -81,6 +81,9 @@ namespace MyFirstUWPApp
                 await dialog.ShowAsync();
             }
 
+            studentList.SelectedItem = null;
+
+
 
         }
 
